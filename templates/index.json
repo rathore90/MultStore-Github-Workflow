@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner MyMaster",
+            "heading": "Image banner NewCommit",
             "heading_size": "h0"
           }
         },
@@ -35,7 +35,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
