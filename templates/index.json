@@ -35,9 +35,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1654035894-united-kingdom-flag-small.webp",
+        "image": "shopify:\/\/shop_images\/1654035630-flag-us.png",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
