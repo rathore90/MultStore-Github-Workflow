@@ -35,9 +35,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-05_at_8.03.29_PM.png",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
