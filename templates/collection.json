@@ -1,1 +1,59 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":4,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_filtering":true,"enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5de26068-9b9c-4d93-adac-d0ea57e7bf28": {
+      "type": "faq_section",
+      "blocks": {
+        "b9b17c0d-0c9d-4318-8c1a-cc7f53b6517b": {
+          "type": "separator",
+          "settings": {
+            "faq_header": "Testing"
+          }
+        },
+        "2a17719a-332a-4ff3-b6e8-721a4a78e480": {
+          "type": "text",
+          "settings": {
+            "faq-title": "Testing",
+            "faq-content": "Testing content"
+          }
+        }
+      },
+      "block_order": [
+        "b9b17c0d-0c9d-4318-8c1a-cc7f53b6517b",
+        "2a17719a-332a-4ff3-b6e8-721a4a78e480"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "5de26068-9b9c-4d93-adac-d0ea57e7bf28"
+  ]
+}
