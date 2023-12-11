@@ -41,11 +41,35 @@
             "faq-title": "Testing",
             "faq-content": "Testing content"
           }
+        },
+        "94832c42-888d-476e-ad8a-7694cf732768": {
+          "type": "text",
+          "settings": {
+            "faq-title": "Testing",
+            "faq-content": "Testing"
+          }
+        },
+        "770a6a66-8ef6-4f01-8803-3bd623e52bd3": {
+          "type": "text",
+          "settings": {
+            "faq-title": "Testing",
+            "faq-content": "Testing"
+          }
+        },
+        "b7ac6cc5-46e3-4c69-a7dd-afcf2fc28a79": {
+          "type": "text",
+          "settings": {
+            "faq-title": "Testing",
+            "faq-content": "Testing"
+          }
         }
       },
       "block_order": [
         "b9b17c0d-0c9d-4318-8c1a-cc7f53b6517b",
-        "2a17719a-332a-4ff3-b6e8-721a4a78e480"
+        "2a17719a-332a-4ff3-b6e8-721a4a78e480",
+        "94832c42-888d-476e-ad8a-7694cf732768",
+        "770a6a66-8ef6-4f01-8803-3bd623e52bd3",
+        "b7ac6cc5-46e3-4c69-a7dd-afcf2fc28a79"
       ],
       "settings": {
       }
