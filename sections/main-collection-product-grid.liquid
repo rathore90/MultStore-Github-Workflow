@@ -31,6 +31,10 @@
   {{ metaobject.key }}
 {% endfor %}
 
+{% for info in collection.metafields.custom.test %}
+ <h4 class="product-detail-heading">{{ info.key }}</h4>
+{% endfor %}
+
 
 <h1>Pardeep</h1>
 
