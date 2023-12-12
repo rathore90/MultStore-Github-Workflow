@@ -26,13 +26,6 @@
   }
 {%- endstyle -%}
 
-{% assign icons =  collection.metafields.custom.richard_mille_history %}
-{{icons}}
-
-{% for test in icons%}
-  <p>test</p>
-  {{ test }}
-{% endfor %}
 
 {% for metaobject in collection.metafields.custom.richard_mille_history.value %}
 {{ metaobject.key  }}
