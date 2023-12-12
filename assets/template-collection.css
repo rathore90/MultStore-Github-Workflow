@@ -70,7 +70,7 @@
   position:absolute;
   width:10px;
   height:10px;
- background:rgba(59,112,239,1);
+  background:rgba(59,112,239,1);
   border-radius:50%;
   box-shadow: 0 0 0 3px rgba(58,112,239,0.2);
   left:-6px;
@@ -83,11 +83,9 @@
   right:-165px;
   margin:0;
   padding:8px 16px;
-
   color:#fff;
   box-shadow:0 0 0 3px rgba(59,112,239,0.3);
   border-radius:18px;
-  
 }
 
 .timeline ul li:nth-child(even) .left_content{
