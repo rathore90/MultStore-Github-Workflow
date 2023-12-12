@@ -19,8 +19,7 @@
 
 
 .timeline ul{
-  margin:0;
-  padding:0 ;
+  display: inline-block;
 }
 
 .timeline ul li{
