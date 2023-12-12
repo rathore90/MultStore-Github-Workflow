@@ -28,13 +28,10 @@
 
 {{ collection.metafields.custom.test }}
 
-{% for metaobject in collection.metafields.custom.test %}
-  {{ metaobject.key }}
+{% for metaobject in collection.metafields.custom.test.values %}
+  {{ metaobject }}
 {% endfor %}
 
-{% for metaobject in collection.metafields.custom.richard_mille_history %}
-  {{ metaobject.fieldDefinitions }}
-{% endfor %}
 
 <h1>Pardeep</h1>
 
