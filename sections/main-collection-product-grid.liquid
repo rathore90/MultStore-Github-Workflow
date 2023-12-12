@@ -26,10 +26,9 @@
   }
 {%- endstyle -%}
 
-{{ collection.metafields.custom.test }}
 
 {% for metaobject in collection.metafields.custom.test.values %}
-  {{ metaobject }}
+  {{ metaobject.key }}
 {% endfor %}
 
 
