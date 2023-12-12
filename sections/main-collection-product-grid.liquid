@@ -28,7 +28,9 @@
 
 {{ collection.metafields.custom.test }}
 
-
+{% for metaobject in collection.metafields.custom.tes%}
+  {{ metaobject.key }}
+{% endfor %}
 
 {% for metaobject in collection.metafields.custom.richard_mille_history %}
   {{ metaobject.fieldDefinitions }}
