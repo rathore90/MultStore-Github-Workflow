@@ -26,18 +26,14 @@
   }
 {%- endstyle -%}
 
-{{ collection.metafields.custom.richard_mille_history }}
+{% assign icons =  collection.metafields.custom.richard_mille_history %}
 
 
-{% for test in collection.metafields.custom.richard_mille_history %}
+{% for test in icons%}
   <p>test</p>
   {{ test }}
 {% endfor %}
 
-{% for metaobject in collection.metafields.custom.richard_mille_history.namespace %}
-{{ metaobject.field }}
-{{ metaobject.field.value }}
-{% endfor %}
 <h1>Pardeep</h1>
 
 <div class="section-{{ section.id }}-padding">
