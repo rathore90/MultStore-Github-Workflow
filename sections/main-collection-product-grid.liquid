@@ -132,6 +132,13 @@
   </div>
 </div>
 
+<div class="page-width">
+  <h1>RICHARD MILLE HISTORY</h1>
+  {% for info in collection.metafields.custom.test.value %}
+    <p class="product-detail-heading">{{ info.key }}</p>
+    <p class="product-detail-heading">{{ info.value }}</p>
+  {% endfor %}
+</div>
 
 {% schema %}
 {

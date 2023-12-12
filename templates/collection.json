@@ -1,1 +1,83 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":4,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_filtering":true,"enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "inverse"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5de26068-9b9c-4d93-adac-d0ea57e7bf28": {
+      "type": "faq_section",
+      "blocks": {
+        "b9b17c0d-0c9d-4318-8c1a-cc7f53b6517b": {
+          "type": "separator",
+          "settings": {
+            "faq_header": "FREQUENTLY ASKED QUESTIONS"
+          }
+        },
+        "2a17719a-332a-4ff3-b6e8-721a4a78e480": {
+          "type": "text",
+          "settings": {
+            "faq-title": "WHY ARE RICHARD MILLE WATCHES SO EXPENSIVE?",
+            "faq-content": "Rachard Mille’s iconic tonneau-shaped case is very difficult to create. Hand-made watchmaking is extremely laborious and involves the highest level of technical mastery. Not only is the design revolutionary, so are the cutting-edge materials. All of that combined means not many watches can be produced each year, giving the watches that do get made a very elite status symbol."
+          }
+        },
+        "94832c42-888d-476e-ad8a-7694cf732768": {
+          "type": "text",
+          "settings": {
+            "faq-title": "HOW MANY WATCHES DOES RICHARD MILLE PRODUCE EACH YEAR?",
+            "faq-content": "Rachard Mille’s iconic tonneau-shaped case is very difficult to create. Hand-made watchmaking is extremely laborious and involves the highest level of technical mastery. Not only is the design revolutionary, so are the cutting-edge materials. All of that combined means not many watches can be produced each year, giving the watches that do get made a very elite status symbol."
+          }
+        },
+        "770a6a66-8ef6-4f01-8803-3bd623e52bd3": {
+          "type": "text",
+          "settings": {
+            "faq-title": "DOES RICHARD MILLE COLLABORATE WITH THEIR AMBASSADORS?",
+            "faq-content": "Rachard Mille’s iconic tonneau-shaped case is very difficult to create. Hand-made watchmaking is extremely laborious and involves the highest level of technical mastery. Not only is the design revolutionary, so are the cutting-edge materials. All of that combined means not many watches can be produced each year, giving the watches that do get made a very elite status symbol."
+          }
+        },
+        "b7ac6cc5-46e3-4c69-a7dd-afcf2fc28a79": {
+          "type": "text",
+          "settings": {
+            "faq-title": "WHO CREATED THE WORLD’S LIGHTEST MECHANICAL TOURBILLON WATCH?",
+            "faq-content": "Rachard Mille’s iconic tonneau-shaped case is very difficult to create. Hand-made watchmaking is extremely laborious and involves the highest level of technical mastery. Not only is the design revolutionary, so are the cutting-edge materials. All of that combined means not many watches can be produced each year, giving the watches that do get made a very elite status symbol."
+          }
+        }
+      },
+      "block_order": [
+        "b9b17c0d-0c9d-4318-8c1a-cc7f53b6517b",
+        "2a17719a-332a-4ff3-b6e8-721a4a78e480",
+        "94832c42-888d-476e-ad8a-7694cf732768",
+        "770a6a66-8ef6-4f01-8803-3bd623e52bd3",
+        "b7ac6cc5-46e3-4c69-a7dd-afcf2fc28a79"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "5de26068-9b9c-4d93-adac-d0ea57e7bf28"
+  ]
+}

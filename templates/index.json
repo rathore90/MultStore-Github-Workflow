@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner NewCommit",
+            "heading": "Image banner",
             "heading_size": "h0"
           }
         },
@@ -35,9 +35,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-05_at_8.03.29_PM.png",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/a-selection-of-candles-and-plants-on-wooden-shelves.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -86,7 +86,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "frontpage",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
