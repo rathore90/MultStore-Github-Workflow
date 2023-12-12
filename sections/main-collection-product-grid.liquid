@@ -133,10 +133,10 @@
 </div>
 
 <div class="">
-{% for info in collection.metafields.custom.test.value %}
- <h4 class="product-detail-heading">{{ info.key }}</h4>
-  <h4 class="product-detail-heading">{{ info.value }}</h4>
-{% endfor %}
+  {% for info in collection.metafields.custom.test.value %}
+    <p class="product-detail-heading">{{ info.key }}</p>
+    <p class="product-detail-heading">{{ info.value }}</p>
+  {% endfor %}
 </div>
 
 {% schema %}
