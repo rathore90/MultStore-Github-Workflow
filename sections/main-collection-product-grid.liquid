@@ -134,10 +134,18 @@
 
 <div class="page-width">
   <h1>RICHARD MILLE HISTORY</h1>
-  {% for info in collection.metafields.custom.test.value %}
-    <p class="product-detail-heading">{{ info.key }}</p>
-    <p class="product-detail-heading">{{ info.value }}</p>
-  {% endfor %}
+    <div class="timeline">
+      <ul>
+        {% for info in collection.metafields.custom.test.value %}
+          <li>
+            <div class="right_content">
+              <p class="product-detail-heading">{{ info.key }}</p>
+              <p class="product-detail-heading">{{ info.value }}</p>
+            </div> 
+          </li>
+        {% endfor %}
+      </ul>
+   </div> 
 </div>
 
 {% schema %}

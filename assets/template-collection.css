@@ -7,7 +7,7 @@
   left:50%;
   width:2px;
   top:-20px;
-  background:#fff;
+  background:#333;
   z-index:1;
 }
 .timeline{
@@ -19,8 +19,7 @@
 
 
 .timeline ul{
-  margin:0;
-  padding:0 ;
+  display: inline-block;
 }
 
 .timeline ul li{
@@ -29,7 +28,7 @@
   line-height:normal;
   position:relative;
   width:50%;
-  padding: 40px 70px;
+  padding: 0px 70px 0 40px;
 }
 
 .timeline ul li .right_content h2{
@@ -60,7 +59,7 @@
   background:rgba(59,112,239,1);
   border-radius:50%;
   box-shadow: 0 0 0 3px rgba(58,112,239,0.2);
-  right:-6px;
+  right: 42px;
   top:24px;
   z-index:1;
 }
@@ -70,10 +69,10 @@
   position:absolute;
   width:10px;
   height:10px;
- background:rgba(59,112,239,1);
+  background:rgba(59,112,239,1);
   border-radius:50%;
   box-shadow: 0 0 0 3px rgba(58,112,239,0.2);
-  left:-6px;
+  left: 6px;
   top:24px;
 }
 
@@ -83,11 +82,9 @@
   right:-165px;
   margin:0;
   padding:8px 16px;
-
   color:#fff;
   box-shadow:0 0 0 3px rgba(59,112,239,0.3);
   border-radius:18px;
-  
 }
 
 .timeline ul li:nth-child(even) .left_content{
